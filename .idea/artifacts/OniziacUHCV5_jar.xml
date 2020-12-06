@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OniziacUHCV5:jar">
+    <output-path>D:/Développement/Développement/OniziacReborn/2/plugins</output-path>
+    <root id="archive" name="OniziacUHCV5.jar">
+      <element id="module-output" name="OniziacUHCV5" />
+    </root>
+  </artifact>
+</component>

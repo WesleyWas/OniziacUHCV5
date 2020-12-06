@@ -1,0 +1,109 @@
+name: OniziacUHCV5
+version: 5.0
+author: Weswaas
+main: net.weswaas.oniziacuhc.OniziacUHC
+commands:
+  start:
+    description: Start the game
+  host:
+    description: Set the game host
+  open:
+    description: Open the whitelist
+  close:
+    description: Close the whitelist
+  freeze:
+    description: Freeze a player
+  unfreeze:
+    description: Unfreeze a player
+  health:
+    description: Get the health of a player
+    aliases: [h]
+  settings:
+    description: Set the game settings
+  chunks:
+    description: Load the map chunks
+  team:
+    description: Team commands
+  scenario:
+    description: Scenario commands
+    aliases: [scen, scenarios]
+  pvp:
+    description: Toggle the pvp
+  visit:
+    description: Visit the middle of the map
+  spectator:
+    description: Spectators command
+    aliases: [spec]
+  respawn:
+    description: Command to respawn players
+  tp:
+    description: Teleport a player [to someone]
+    aliases: [tele]
+  gamemode:
+    description: Command the gamemode of a player
+    aliases: [gm, gmc, gms, gma]
+  give:
+    description: Command to give an item to a specified player
+    aliases: [g]
+  notif:
+    description: Command to add someones to the notified mining list
+  helpop:
+    description: Command to send messages to hosts
+    aliases: [ho]
+  killcount:
+    description: Command to see someone's kill count
+    aliases: [kc]
+  killtop:
+    description: Command to get the players with the most kills
+    aliases: [kt]
+  checkstuff:
+    description: Command to check players stuff
+  staff:
+    description: Command to talk with staff members
+    aliases: [s]
+  config:
+    description: Command to get the match config
+    aliases: [uhc]
+  plist:
+    aliases: [list]
+    description: Command to see all UHC players
+  stats:
+    description: Command to view someone's stats
+  nick:
+    description: Command to nick, to disguise
+  heal:
+    description: Command to heal a player
+  fly:
+    description: Command to allow a player to fly
+  arena:
+    description: Command to manage arena
+    aliases: [practice]
+  summon:
+    description: Command to block the summon command
+  speed:
+    description: Command to block the speed command
+  chat:
+    description: Command to mute/demute the chat
+    aliases: [c]
+  sc:
+    description: Send your coords to your team mates
+  tc:
+    description: Chat with your team mates
+  bp:
+    description: Gives you access to your teams backpack
+  invsee:
+    description: See someones inventory
+    aliases: [is]
+  removefromlist:
+    description: .
+  whitelist:
+    description: Allows you to whitelist a player
+    aliases: [wl]
+  latescatter:
+    description: Allows you to latescatter yourself
+  rush:
+    description: Allows you to toggle between rush and normal games
+  statsreset:
+    description: Allows you to reset stats of a player
+  alpha:
+    description: Command to avoid stats sending
